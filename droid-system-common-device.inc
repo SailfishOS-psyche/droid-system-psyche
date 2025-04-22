@@ -16,7 +16,7 @@ Release:       1
 License:       %{system_license}
 Requires:      droid-system-%{habuild_device}
 Source0:       %{name}-%{version}.tgz
-Source1:       droid-system-%{habuild_device}-rpmlintrc
+Source1:       droid-system-rpmlintrc
 URL:           https://github.com/mer-hybris/droid-system-sony-template
 
 %description
