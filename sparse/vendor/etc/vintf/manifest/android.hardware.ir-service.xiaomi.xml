@@ -1,0 +1,10 @@
+<!--
+    Input:
+        hardware/xiaomi/aidl/ir/android.hardware.ir-service.xiaomi.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.ir</name>
+        <fqname>IConsumerIr/default</fqname>
+    </hal>
+</manifest>

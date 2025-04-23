@@ -1,0 +1,39 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Xiaomi
+ro.product.product.device=psyche
+ro.product.product.manufacturer=Xiaomi
+ro.product.product.model=2112123AG
+ro.product.product.name=lineage_psyche
+ro.product.build.date=Tue Apr 22 12:10:32 MSK 2025
+ro.product.build.date.utc=1745313032
+ro.product.build.fingerprint=Xiaomi/psyche_global/psyche:13/RKQ1.211001.001/V14.0.5.0.TLDMIXM:user/release-keys
+ro.product.build.id=AP2A.240905.003
+ro.product.build.tags=test-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=eng.verevk.20250422.121033
+ro.product.build.version.release=14
+ro.product.build.version.release_or_codename=14
+ro.product.build.version.sdk=34
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.build.16k_page.enabled=false
+ro.build.characteristics=default
+ro.product.ab_ota_partitions=boot,dtbo,odm,product,system,system_ext,vbmeta,vbmeta_system,vendor,vendor_boot
+ro.product.cpu.pagesize.max=4096
+# Value overridden by post_process_props.py. Original value: default
+ro.dalvik.vm.enable_uffd_gc=false
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+setupwizard.theme=glif_v4
+setupwizard.feature.day_night_mode_enabled=true
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+ro.support_one_handed_mode=true
+ro.config.ringtone=Orion.ogg
+ro.com.android.mobiledata=false
+# end of file
